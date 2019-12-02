@@ -6,7 +6,7 @@ FW_PATH='/lib/firmware/gc6500'
 mkdir -p $CONFIG_PATH
 mkdir -p $FW_PATH
 
-cp gc6500_ddrboot_fw.img sensor_ov2710_mayfield_le.bin $CONFIG_PATH/
+cp gc6500_ddrboot_fw.img sensor_ov2710_mayfield_le.bin $FW_PATH/
 cp mxcam /usr/bin
 cp config.json $CONFIG_PATH/
 
