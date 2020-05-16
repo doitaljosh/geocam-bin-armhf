@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="usb", ENV{PRODUCT}=="29fe/b00c/0", RUN=="/bin/su root --command='/usr/bin/boot_camera.sh'"
