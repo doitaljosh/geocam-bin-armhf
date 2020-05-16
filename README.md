@@ -10,7 +10,7 @@ source binary, so it can't be cross-compiled, however I was lucky to find a comp
 # To install:
 1. Install `rsync` by issuing `sudo apt install rsync`
 2. Clone the repository and `cd` to it
-3. `rsync -avd ./ /`
+3. `rsync -avd ./files/ /`
 4. `chmod +x /usr/bin/boot_camera.sh` 
 5. Reboot and then try plugging in your MDG-217 camera to your ARM SBC and see if it loads.
 
